@@ -43,7 +43,7 @@ class Player(Entity):
 
         self.health = self.stats['health'] * 0.5
         self.energy = self.stats['energy'] * 0.8
-        self.exp = 100
+        self.exp = 10000
         #self.speed = self.stats['speed']
 
         # damage timer
